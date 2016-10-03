@@ -27,11 +27,11 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
         /*----CREATION DES ONGLETS DE NAVIGATION AVEC L'ACTION BAR----*/
         actionBar.addTab(
                 actionBar.newTab()
-                        .setText("Text")
+                        .setText(getString(R.string.Text))
                         .setTabListener(this));
         actionBar.addTab(
                 actionBar.newTab()
-                        .setText("Num")
+                        .setText(getString(R.string.Num))
                         .setTabListener(this));
 
 
